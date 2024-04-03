@@ -1,65 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hong Joo Ryoo - Personal Website</title>
-    <link href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body>
-    <header class="text-center p-5 bg-gray-700 text-white">
-        <h1>Hong Joo Ryoo</h1>
-        <nav>
-            <a href="#research" class="text-blue-200 hover:text-white">Research Interests</a> |
-            <a href="#education" class="text-blue-200 hover:text-white">Education</a> |
-            <a href="#experience" class="text-blue-200 hover:text-white">Research Experience</a> |
-            <a href="#publications" class="text-blue-200 hover:text-white">Publications</a> |
-            <a href="#awards" class="text-blue-200 hover:text-white">Awards & Presentations</a> |
-            <a href="#courses" class="text-blue-200 hover:text-white">Graduate Coursework</a>
-        </nav>
-    </header>
-    <main class="p-5">
-        <section id="research" class="my-5">
-            <h2>Research Interests</h2>
-            <p>My research interests span High Energy Particle Experimentation/Phenomenology, Numerical Analysis, Lattice Field Theories, and the Philosophy of Science.</p>
-        </section>
-        
-        <section id="education" class="my-5">
-            <h2>Education</h2>
-            <p>UC Berkeley: B.A. in Physics (Honors Program), Applied Mathematics, Philosophy, and Cognitive Science. Quadruple Major Senior.</p>
-        </section>
-        
-        <section id="experience" class="my-5">
-            
-            <h2>Research Experience</h2>
-            <ul>
-                <li><strong>Undergraduate Researcher at the Berkeley Nuclear Theory Group N3AS:</strong> Computational research in Lattice Quantum Chromodynamics (LQCD).</li>
-                <li><strong>Research Affiliate at the Orebi Gann Group, LBNL:</strong> Experimental research involving the Eos Neutrino detector.</li>
-                <li><strong>Senior Thesis and Honors Physics Program, UC Berkeley:</strong> Investigated firewall problems in black hole physics.</li>
-            </ul>
-        </section>
-        
-        <section id="publications" class="my-5">
-            <h2>Publications</h2>
-            <p>Tanner Kaptanoglu, Hong Joo Ryoo, et al. (2024). <em>Characterization of the Hamamatsu 8-inch R14688-100 PMT</em>, <a href= "https://iopscience.iop.org/article/10.1088/1748-0221/19/02/P02032">JINST 19 P02032</a>.</p>
-        </section>
-        
-        <section id="awards" class="my-5">
-            <h2>Awards, Scholarships, Fellowships, & Presentations</h2>
-            <ul>
-                <li>BPURS Physics and Astronomy Research Program and Scholarship, UC Berkeley.</li>
-                <li>Summer Undergraduate Research Fellowship (SURF), UC Berkeley.</li>
-                <li>Guest Speaker in Computer Science 300 Seminar, California State University - Chico.</li>
-            </ul>
-        </section>
-        
-        <section id="courses" class="my-5">
-            <h2>Graduate Coursework (taken during Undergrad)</h2>
-            <p>Highlighted graduate-level courses taken during my undergraduate studies at UC Berkeley, spanning advanced topics in Physics, Philosophy, and Mathematics.</p>
-        </section>
-    </main>
-    <footer class="text-center p-5 bg-gray-800 text-white">
-        Contact: (909) 219-0502 | <a href="mailto:example@example.com" class="text-blue-200 hover:text-white">example@example.com</a>
-    </footer>
-</body>
-</html>
+<!-- Hero Section -->
+<div class="relative">
+    <img src="/path/to/your-background-image.jpg" alt="Background" class="w-full h-screen object-cover">
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+        <h1 class="text-white text-6xl font-bold">Hong Joo Ryoo</h1>
+    </div>
+</div>
+
+<!-- Experience Section -->
+<div class="container mx-auto px-4 md:px-12 py-12">
+    <div class="flex flex-wrap -mx-4">
+        <!-- UC Berkeley Experience -->
+        <div class="w-full md:w-1/2 p-4">
+            <img src="/path/to/uc-berkeley-image.jpg" alt="UC Berkeley" class="w-full h-64 object-cover">
+        </div>
+        <div class="w-full md:w-1/2 p-4 flex items-center bg-white">
+            <div>
+                <h2 class="text-2xl font-semibold">UC Berkeley</h2>
+                <p>Your text about UC Berkeley experience goes here...</p>
+                <!-- Add more text as needed -->
+            </div>
+        </div>
+
+        <!-- QUETI Experience -->
+        <div class="w-full md:w-1/2 p-4 flex items-center bg-white">
+            <div>
+                <h2 class="text-2xl font-semibold">QUETI</h2>
+                <p>Your text about QUETI experience goes here...</p>
+                <!-- Add more text as needed -->
+            </div>
+        </div>
+        <div class="w-full md:w-1/2 p-4">
+            <img src="/path/to/queti-image.jpg" alt="QUETI" class="w-full h-64 object-cover">
+        </div>
+
+        <!-- KATUSA Experience -->
+        <div class="w-full md:w-1/2 p-4">
+            <img src="/path/to/katusa-image.jpg" alt="KATUSA" class="w-full h-64 object-cover">
+        </div>
+        <div class="w-full md:w-1/2 p-4 flex items-center bg-white">
+            <div>
+                <h2 class="text-2xl font-semibold">KATUSA</h2>
+                <p>Your text about KATUSA experience goes here...</p>
+                <!-- Add more text as needed -->
+            </div>
+        </div>
+    </div>
+</div>
