@@ -1,53 +1,104 @@
-<!-- Hero Section -->
-<!-- Hero Section -->
-<div class="flex items-center justify-center bg-cover bg-no-repeat bg-center h-[100vh]" style="background-image: url('Berkeley.png');">
-    <!-- Overlay with opacity -->
-    <div class="absolute inset-0 bg-black bg-opacity-70"></div>
-    <!-- Your Name -->
-    <h1 class="relative text-white text-6xl font-bold z-10">Hong Joo Ryoo</h1>
-</div>
+<!DOCTYPE html>
+<!--
+    Plain-Academic by Vasilios Mavroudis
+    Released under the Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+-->
 
-<!-- Experience Section -->
-<div class="container mx-auto px-4 md:px-12 py-12">
-    <div class="flex flex-wrap -mx-4">
-        <!-- UC Berkeley Experience -->
-        <div class="w-full md:w-1/2 p-4">
-            <img src="Presentation.png" alt="UC Berkeley" class="w-full h-64 object-cover">
-        </div>
-        <div class="w-full md:w-1/2 p-4 flex items-center bg-white">
-            <div>
-                <h2 class="text-2xl font-semibold">UC Berkeley</h2>
-                <p>I am currently studying at University of California, Berkeley as a quadruple major in Physics, Philosophy, Cognitive Science, and Applied Mathematics.
-In my undergraduate studies, I worked in various high energy fields, including Lattice QCD, Black Hole Physics, and Neutrino Experimentation.</p>
-                <!-- Add more text as needed -->
-            </div>
-        </div>
+<html lang="en">
+<head>
+  <title>Hong Joo Ryoo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+</head>
+<body>
 
-        <!-- Orebi Gann Group Experience -->
-        <div class="w-full md:w-1/2 p-4 flex items-center bg-white">
-            <div>
-                <h2 class="text-2xl font-semibold">OG Group</h2>
-                <p>Experimental research involving the Eos Neutrino detector as a part of the Orebi Gann Group at Laurence Berkeley National Laboratory. I was involved in Photomultiplier tube PMT characterization, data analysis, construction of EOS detector
-Funded through LBNL and BPURS</p>
-                <!-- Add more text as needed -->
-            </div>
-        </div>
-        <div class="w-full md:w-1/2 p-4">
-            <img src="pmt.png" alt="QUETI" class="w-full h-64 object-cover">
-        </div>
+<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+		</div>
 
-        <!-- KATUSA Experience -->
-        <div class="w-full md:w-1/2 p-4">
-            <img src="/path/to/katusa-image.jpg" alt="KATUSA" class="w-full h-64 object-cover">
-        </div>
-        <div class="w-full md:w-1/2 p-4 flex items-center bg-white">
-            <div>
-                <h2 class="text-2xl font-semibold">N3AS and NT group</h2>
-                <p> Computational research in Lattice Quantum Chromodynamics (LQCD)
- ○ Investigating quantum computations of 3 body scattering amplitudes in 1+1D
- ○ Funded through SURF 2023 and N3AS</p>
-                <!-- Add more text as needed -->
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="#research">Research</a></li>
+				  <li><a href="#publications">Publications</a></li> 
+				  <li><a href="cv.pdf" target="_blank">CV</a></li> 
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+  
+  <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Entries Column -->
+            <div class="col-md-8" style="height: 100vh;">
+                
+                <!-- Main Image -->
+                <img class="img-responsive" src="Presentation.png" alt="Hong Joo Ryoo Presenting"><br>
+                
+                <div style="margin-top:3%; text-align:justify;">                
+					<p>As an undergraduate researcher in Physics at UC Berkeley, I am dedicated to advancing our understanding of high energy particle experimentation and lattice field theories. My academic journey is rooted in the pursuit of knowledge across multiple disciplines including physics, applied mathematics, philosophy, and cognitive science.</p>
+					
+					<p>My current research focuses on computational studies within the Berkeley Nuclear Theory Group N3AS and the experimental work with the Orebi Gann Group at Lawrence Berkeley National Laboratory. Each project aims to deepen our grasp of quantum phenomena and the fundamental principles governing the universe.</p>
+					
+					<p>In addition to my research commitments, I have actively participated in the academic community through publications and presentations, striving to contribute meaningful insights to the field of physics.</p>
+                </div>
+            </div> 
+
+            <!-- Contact Info on the Sidebar -->
+            <div class="col-md-4">
+                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Hong Joo Ryoo</b></div><br>
+                <p><b>hongjoo@example.com</b><br>
+                <p>Physics Department<br>
+                UC Berkeley<br>
+                Berkeley, CA<br>
+                USA<br>
+                </p>
             </div>
+            
+            
+            <!-- Links on the Sidebar -->
+            <div class="col-md-4" style="margin-top:2%">
+              <dd><a href="https://scholar.google.com">Google Scholar</a></dd> 
+              <dd><a href="https://twitter.com/hongjooryoo">Twitter</a></dd>
+              <dd><a href="https://www.linkedin.com/in/hongjooryoo">LinkedIn</a></dd>
+            </div>
+            
+            
+            <!-- Publications -->
+            <div class="col-md-8" style="height: 100vh;">    
+                <h2 id="publications">Publications</h2>
+                
+                <strong>Peer-reviewed</strong><br/>
+                <ul>
+                <li class="paper"><a href="https://doi.org/yourdoihere">Tanner Kaptanoglu, Hong Joo Ryoo, et al. (2024). "Title of your publication here". Journal Name.</a></li>
+                </ul>
+            
+                <!-- Other sections such as Technical Reports can be added similarly -->
+            </div>
+
         </div>
     </div>
-</div>
+    <!-- /.container -->
+    
+    <!-- Footer -->
+    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
+    
+</body>
+</html>
