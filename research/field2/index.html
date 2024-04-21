@@ -25,6 +25,18 @@
     background-color: #333; /* This sets the background to a dark color, change the hex value as per your design */
   }
 }
+        .responsive-iframe {
+  width: 100%;   /* Ensures the iframe is full width */
+  height: 500px; /* Default height */
+  border: none;  /* Optional: removes the border */
+}
+
+@media (max-width: 768px) {
+  .responsive-iframe {
+    height: 300px; /* Smaller devices get a shorter iframe */
+  }
+}
+
     </style>
 </head>
 <body>
@@ -82,20 +94,18 @@
         <div class="col-md-12">
              <h3>2024 BPURS Poster now displayed in Professor Orebi Gann's Office</h3>
             <!-- The iframe below assumes you have a direct link to a PDF file -->
-           <iframe src="https://drive.google.com/file/d/1xO1iPF4JJjwzBtun-PbO_oUJ24qmn67Y/preview" width="70%" height="100%" allow="autoplay"></iframe>
+           <iframe src="https://drive.google.com/file/d/1xO1iPF4JJjwzBtun-PbO_oUJ24qmn67Y/preview" width="70%" height="responsive-iframe" allow="autoplay"></iframe>
         </div>
         <div class="col-md-12">
             <h3>2023 BPURS Poster</h3>
-            <iframe src="https://drive.google.com/file/d/13KNz2Vcql0Q_d1bchlsYn_aILBNKXDXm/preview" width="70%" height="100%" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/13KNz2Vcql0Q_d1bchlsYn_aILBNKXDXm/preview" width="70%" height="responsive-iframe" allow="autoplay"></iframe>
         </div>
     </div>
 </div>
 
 
            
-            
-            
-< !-- Footer -->
+
 <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
 
 </body>
