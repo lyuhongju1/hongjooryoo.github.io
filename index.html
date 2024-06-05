@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-    Plain-Academic by Vasilios Mavroudis
-    Released under the Simplified BSD License/FreeBSD (2-clause) License.
-    https://github.com/mavroudisv/plain-academic
--->
 <html lang="en">
 <head>
   <title>Hong Joo Ryoo</title>
@@ -24,23 +19,26 @@
       padding-bottom: 10px;
     }
     .navbar-brand {
-        padding-top: 40px;
-        padding-bottom: 20px;
+      padding-top: 40px;
+      padding-bottom: 20px;
       font-size: 45px; /* Adjust the font size as needed */
     }
-      
     .navbar-nav > li > a {
       padding-top: 40px;
       padding-bottom: 20px;
       font-size: 35px;
     }
-      
     .dropdown-menu > li > a {
       padding: 10px 20px; /* Increase padding */
       font-size: 18px; /* Increase font size */
     }
-
-        @media (max-width: 767px) {
+    .order-first {
+      order: -1; /* Make this element appear first */
+    }
+    .order-last {
+      order: 1; /* Make this element appear last */
+    }
+    @media (max-width: 767px) {
       .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
         background-color: #000000; /* This sets the background to a dark color, change the hex value as per your design */
       }
@@ -52,6 +50,9 @@
       }
       .order-last {
         order: 1; /* Make this element appear last */
+      }
+      .col-md-6 {
+        width: 100%;
       }
     }
   </style>
@@ -92,49 +93,18 @@
   <!-- Page Content -->
   <div class="container">
     <div class="row">
-      <!-- Entries Column -->
+      <!-- Image Column -->
+      <div class="col-md-6 order-first" style="height: 100vh;">
+        <img class="img-responsive" src="Crosssmile.jpg" alt="Hong Joo Ryoo Presenting" style="width: 100%;"><br>
+      </div>
+      <!-- Text Column -->
       <div class="col-md-6 order-last" style="height: 100vh;">
-        <!-- Main Image -->
-        
-        
-        <div style="margin-top:1%; text-align:justify;font-size: 18px;">                
+        <div style="margin-top:1%; text-align:justify; font-size: 18px;">
           <p>As a researcher at UC Berkeley, I am primarily dedicated to advancing our understanding of high-energy particle experimentation and lattice field theories. My academic journey is rooted in the pursuit of knowledge across multiple disciplines, including physics, applied mathematics, philosophy, and cognitive science.</p>
-          <p>My current research focuses on computational studies within the <a href="https://hongjooryoo.com/research/field3">Berkeley Nuclear Theory Group and N3AS</a>, and experimental work with the <a href="https://hongjooryoo.com/research/field2">Orebi Gann Group at Lawrence Berkeley National Laboratory</a>. I was also involved in theoretical physics, examining high-energy phenomena near black holes for my <a href="https://hongjooryoo.com/research/field3">Honors Undergraduate Research</a>. Each project aims to deepen our grasp of quantum phenomena and the fundamental principles governing the universe. </p>
+          <p>My current research focuses on computational studies within the <a href="https://hongjooryoo.com/research/field3">Berkeley Nuclear Theory Group and N3AS</a>, and experimental work with the <a href="https://hongjooryoo.com/research/field2">Orebi Gann Group at Lawrence Berkeley National Laboratory</a>. I was also involved in theoretical physics, examining high-energy phenomena near black holes for my <a href="https://hongjooryoo.com/research/field3">Honors Undergraduate Research</a>. Each project aims to deepen our grasp of quantum phenomena and the fundamental principles governing the universe.</p>
           <p>I am also involved in the <a href="https://hongjooryoo.com/research/field4">Philosophy of Explanation</a></p>.
         </div> 
-      </div> 
-
-        <div class="col-md-6 order-first" style="height: 100vh;">
-            <img class="img-responsive" src="Crosssmile.jpg" alt="Hong Joo Ryoo Presenting"style="width: 100%;"><br>
-             </div> 
-      <!-- Contact Info on the Sidebar -->
-        <!--
-      <div class="col-md-4">
-        <div style="font-family: 'Times New Roman', Times, serif; font-size: 52px;"><b>Hong Joo Ryoo</b></div><br>
-        <p><b>lyuhongju1@berkeley.edu</b><br>
-        <p><b>UC Berkeley Honors B.A. in:</b></p>
-    <ul>
-        <div style="margin-top:1%; text-align:justify;font-size: 17px;">  
-        <li>Physics</li>
-        <li>Applied Mathematics</li>
-        <li>Philosophy</li>
-        <li>Cognitive Science</li>
-        </div>
-    </ul>
-</p>
       </div>
-      -->
-      <!-- Links on the Sidebar -->
-        <!--
-      <div class="col-md-4" style="margin-top:2%">
-        Publication Details at:
-        <dd><a href="https://scholar.google.com/citations?user=MaOhbfsAAAAJ&hl=en">Google Scholar</a></dd> 
-        <dd><a href="https://profiles.lbl.gov/251217-hong-joo-ryoo">LBNL Profile</a></dd>
-        <dd><a href="https://inspirehep.net/authors/2723076">Inspire HEP</a></dd>
-        <dd><a href="https://hongjooryoo.com/publications/">Publications Page</a></dd>
-        <dd><a href="https://philpeople.org/profiles/hong-joo-ryoo">PhilPapers</a></dd>
-        <dd><a href="https://www.researchgate.net/profile/Hong-Joo-Ryoo">ResearchGate</a></dd>
-      </div> -->
     </div>
   </div>
 </body>
