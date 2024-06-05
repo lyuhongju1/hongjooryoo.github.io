@@ -45,28 +45,18 @@
       padding-top: 0;
       padding-bottom: 0;
     }
+    .navbar-collapse.in {
+      overflow: hidden;
+    }
 
     @media (max-width: 767px) {
-      .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-        background-color: #000000; /* This sets the background to a dark color, change the hex value as per your design */
-      }
-      .navbar-nav > li > a {
-        font-size: 18px;
-      }
-      .order-first {
-        order: -1; /* Make this element appear first */
-      }
-      .order-last {
-        order: 1; /* Make this element appear last */
-      }
-      .col-md-6 {
-        width: 100%;
-      }
-      .navbar-nav > li > a {
+      .navbar-nav {
         display: none; /* Hide navbar items on mobile */
       }
-      .navbar-nav > li.dropdown {
-        display: block; /* Show dropdown menu on mobile */
+      .navbar-nav.mobile-nav {
+        display: block; /* Show mobile menu */
+        float: none;
+        text-align: center;
       }
       .menu-overlay {
         position: fixed;
@@ -90,7 +80,10 @@
 
     @media (min-width: 768px) {
       .dropdown-mobile {
-        display: none; /* Hide dropdown on desktop */
+        display: none; /* Hide mobile menu on desktop */
+      }
+      .navbar-nav.desktop-nav {
+        display: block; /* Show desktop menu */
       }
     }
   </style>
@@ -125,7 +118,11 @@
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right desktop-nav">
+          <li><a href="/research/field1">Research</a></li>
+          <li><a href="/publications">Publications</a></li> 
+        </ul>
+        <ul class="nav navbar-nav navbar-right mobile-nav">
           <li class="dropdown dropdown-mobile">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
           </li>
