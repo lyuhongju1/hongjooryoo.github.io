@@ -10,7 +10,7 @@
   <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
 
   <style>
-        body {
+    body {
       font-family: 'Times New Roman', Times, serif;
       font-size: 20px; /* Adjust the font size as needed */
     }
@@ -62,7 +62,17 @@
       padding-top: 0;
       padding-bottom: 0;
     }
+    .blur-background {
+      filter: blur(5px);
+    }
   </style>
+  <script>
+    $(document).ready(function() {
+      $('.dropdown-toggle').on('click', function() {
+        $('body').toggleClass('blur-background');
+      });
+    });
+  </script>
 </head>
 <body>
 
@@ -83,15 +93,13 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="/research/field1">Quantum Computing and Lattice QCD</a></li>
-              <li><a href="/research/field2">Experimental Neutrino Physics</a></li>
-              <li><a href="/research/field3">Theoretical High Energy Physics</a></li>
-              <li><a href="/research/field4">Philosophy of Explanation</a></li>
+              <li><a href="https://hongjooryoo.com">Hong Joo Ryoo</a></li>
+              <li><a href="/research/field1">Research</a></li>
+              <li><a href="/publications">Publications</a></li> 
             </ul>
           </li>
-          <li><a href="/publications">Publications</a></li> 
         </ul>
       </div>
     </div>
