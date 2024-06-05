@@ -40,15 +40,20 @@
       font-size: 18px; /* Increase font size */
     }
 
-      @media (max-width: 767px) {
-  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    background-color: #000000; /* This sets the background to a dark color, change the hex value as per your design */
-  }
-          
+        @media (max-width: 767px) {
+      .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        background-color: #000000; /* This sets the background to a dark color, change the hex value as per your design */
+      }
       .navbar-nav > li > a {
         font-size: 18px;
       }
-}
+      .order-first {
+        order: -1; /* Make this element appear first */
+      }
+      .order-last {
+        order: 1; /* Make this element appear last */
+      }
+    }
   </style>
 </head>
 <body>
@@ -88,7 +93,7 @@
   <div class="container">
     <div class="row">
       <!-- Entries Column -->
-      <div class="col-md-6" style="height: 100vh;">
+      <div class="col-md-6 order-last" style="height: 100vh;">
         <!-- Main Image -->
         
         
@@ -99,7 +104,7 @@
         </div> 
       </div> 
 
-        <div class="col-md-6" style="height: 100vh;">
+        <div class="col-md-6 order-first" style="height: 100vh;">
             <img class="img-responsive" src="Crosssmile.jpg" alt="Hong Joo Ryoo Presenting"style="width: 100%;"><br>
              </div> 
       <!-- Contact Info on the Sidebar -->
