@@ -9,17 +9,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
-   <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
-<link rel="manifest" href="/site.webmanifest">
 
   <style>
     body {
       font-family: 'Times New Roman', Times, serif;
-      font-size: 16px; /* Adjust the font size as needed */
+      font-size: 16px;
     }
     .navbar {
       height: 120px;
@@ -29,7 +23,7 @@
     .navbar-brand {
       padding-top: 40px;
       padding-bottom: 20px;
-      font-size: 45px; /* Adjust the font size as needed */
+      font-size: 45px;
     }
     .navbar-nav > li > a {
       padding-top: 40px;
@@ -37,178 +31,140 @@
       font-size: 35px;
     }
     .dropdown-menu > li > a {
-      padding: 10px 20px; /* Increase padding */
-      font-size: 18px; /* Increase font size */
+      padding: 10px 20px;
+      font-size: 18px;
     }
-    
-      .responsive-iframe {
-        width: 80%;
-        height: 600px; /* Adjust the height as needed */
-      }
 
     @media (max-width: 767px){
-  body {
-    font-size: 14px; /* Adjust the font size for mobile */
-  }
-
-      .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form { background-color: #222
+      body {
+        font-size: 14px;
       }
       .navbar-brand {
-        font-size: 30px; /* Adjust the font size for mobile */
+        font-size: 30px;
       }
-      
       .navbar-nav > li > a {
-        padding-top: 40px;
-        font-size: 24px; /* Increase the font size for navigation items on mobile */
+        font-size: 24px;
       }
-      
       .navbar-toggle {
-        margin-top: 33px; /* Adjust this value to move the button lower */
-      }
-      .dropdown-menu > li > a {
-        font-size: 16px; /* Increase font size for dropdown items on mobile */
-      }
-      .order-first {
-        order: -1; /* Make this element appear first */
-      }
-      .order-last {
-        order: 1; /* Make this element appear last */
+        margin-top: 33px;
       }
       .col-md-6 {
         width: 100%;
       }
     }
-    .no-gap {
-      margin-top: 0;
-      margin-bottom: 0;
-      padding-top: 0;
-      padding-bottom: 0;
-    }
-    
-      .responsive-iframe {
-        width: 100%;
-        height: 300px; /* Adjust the height as needed */
-      }
   </style>
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://hongjooryoo.com"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Research",
-      "item": "https://hongjooryoo.com/research"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Cognitive Science and Philosophy of Mind",
-      "item": "https://hongjooryoo.com/research/field5"
-    }
-  ]
-}
-</script>
 
 </head>
+
 <body>
 
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="https://hongjooryoo.com">Hong Joo Ryoo</a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="/research/mathphys">(Physics) Formal Theory</a></li>
-              <li><a href="/research/theory">(Physics) QCD Theory</a></li>
-              <li><a href="/research/experiment">(Physics) Dark Matter and Neutrino Experiment</a></li>
-              <li><a href="/research/philosophy">(Philosophy) of Explanation and Understanding</a></li>
-              <li><a href="/research/foundations">(Philosophy) of Quantum Mechanics</a></li>
-              <li><a href="/research/cogsci">(Cogsci) Philosophy of Mind and Cognition</a></li>
-              <li><a href="/research/ai">(Cogsci) Artificial Intelligence</a></li>
-            </ul>
-          </li>
-          <li><a href="/publications">Publications</a></li> 
-          <li><a href="/about-me">About</a></li> 
-        </ul>
-      </div>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://hongjooryoo.com">Hong Joo Ryoo</a>
     </div>
-  </nav>
 
-
-
-
-
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+            Research <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="/research/mathphys">(Physics) Formal Theory</a></li>
+            <li><a href="/research/theory">(Physics) QCD Theory</a></li>
+            <li><a href="/research/experiment">(Physics) Dark Matter and Neutrino Experiment</a></li>
+            <li><a href="/research/philosophy">(Philosophy) of Explanation and Understanding</a></li>
+            <li><a href="/research/foundations">(Philosophy) of Quantum Mechanics</a></li>
+            <li><a href="/research/cogsci">(Cogsci) Philosophy of Mind and Cognition</a></li>
+            <li><a href="/research/ai">(Cogsci) Artificial Intelligence</a></li>
+          </ul>
+        </li>
+        <li><a href="/publications">Publications</a></li>
+        <li><a href="/about-me">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
 <!-- Page Content -->
 <div class="container">
   <div class="row">
-     <!-- Description on the Left -->
-     <div class="col-md-6">
-       
-     <h3>Philosophy of Mind and Cognitive Science Work</h3>
-        <p> Complementary to my work in the philosophy of explanation, I am currently investigating the connection between mental models of deduction and deductive structures in scientific explanation. I am also interested in the implications of an AI model in terms of being able to construct explanations, especially those involving non-classical theories. My collaborators and I are working on a whitepaper for the prospects of ML explanations of nested entailment. I hope to extend this program to a sector of Hovian Inc., an AI productivity company I founded during my gap year.</p>
-       <a href="https://doi.org/10.31234/osf.io/p7a4w">Functionalism Explanation on PsyArXiv</a></li></p>
-      <a href=" https://philsci-archive.pitt.edu/id/eprint/23661">Functionalism Explanation on PhilSci-Archive</a></li></p>
 
-       <div class="row">
-        <div class="col-md-12">
-            <h3>On Functionalism’s Context-Dependent Explanations of Mental States</a></h3>
-            <!-- The iframe below assumes you have a direct link to a PDF file -->
-            <iframe src="https://drive.google.com/file/d/1jb51kO9g7AM1WJulJPRKiGyXT2KQfUxJ/preview" style="width:70%; height:470px;" allow="autoplay"></iframe>
-        </div>
-    </div>
-</div>
-
-    <!-- Images on the Right -->
+    <!-- Left Column -->
     <div class="col-md-6">
-    <img src="Mindpic (1).png" alt="Neutrino Research" class="img-responsive"class="img-responsive" style="width: 35%;margin-top:40px; margin-bottom:35px;">
-    </div>
-    <!--
-    
-      <div class="container">
-    <div class="row">
+
+      <h3>Artificial Intelligence and Autonomous Scientific Reasoning</h3>
+
+      <p>
+        My work in artificial intelligence focuses on the development of
+        <em>agentic systems</em> for scientific reasoning, with particular emphasis
+        on simulation-native autonomy in experimental physics. Rather than
+        treating AI systems as tools for workflow automation or code execution,
+        I investigate how large language models can participate directly in
+        hypothesis formation, experimental design, simulation-driven evaluation,
+        and explanatory synthesis under physical constraints.
+      </p>
+
+      <p>
+        This research program is instantiated in <strong>GRACE</strong>
+        (Generative Reasoning Agentic Control Environment), an autonomous AI
+        framework designed to operate at the upstream level of experimental
+        design in high-energy and nuclear physics. GRACE treats detector design
+        as a constrained search problem under physical law, using first-principles
+        Monte Carlo simulation as an epistemic oracle rather than relying on
+        predefined optimization heuristics.
+      </p>
+
+      <p>
+        The broader aim of this work is to understand how AI systems can
+        construct, evaluate, and revise explanations in domains where correctness
+        is determined not by benchmarks or labels, but by consistency with
+        physical theory, statistical structure, and simulation-grounded evidence.
+      </p>
+
+      <a href="https://doi.org/10.5281/zenodo.18423715">
+        GRACE Whitepaper (Zenodo)
+      </a><br>
+
+      <!-- optional arXiv link if/when public -->
+      <!--
+      <a href="https://arxiv.org/abs/XXXX.XXXXX">
+        GRACE on arXiv
+      </a>
+      -->
+
+      <div class="row" style="margin-top:25px;">
         <div class="col-md-12">
-            <h3>Towards an Account of Complementarities and Context-Dependence</a></h3>
-       
-            <iframe src="https://drive.google.com/file/d/1APx2uqji0-2FozCY2i4b9Vl4IssYQW3X/preview" style="width:70%; height:470px;" allow="autoplay"></iframe>
+          <h3>GRACE: An Agentic AI for Particle Physics Experiment Design</h3>
+
+          <iframe
+            src="https://zenodo.org/records/18423715/files/GRACE.pdf?download=1"
+            style="width:70%; height:470px;"
+            allow="autoplay">
+          </iframe>
         </div>
+      </div>
+
     </div>
-     <div class="row">
-        <div class="col-md-12">
-        <h3>Concerning Multiple Context-Dependence, Uncertainty, and Understanding</a></h3>
-       <iframe src="https://drive.google.com/file/d/1IjSFBhGmb-zF9t0QrPMDxFHk5i1BeDew/preview" style="width:70%; height:470px;" allow="autoplay"></iframe>
-</div>
- </div>
-          <div class="row">
-        <div class="col-md-12">
-        <h3>The Role of Idealizations in Context-Dependent Mapping</a></h3>
-          <iframe src="https://drive.google.com/file/d/1_K0-PbuMM53-QR5HSj8-aB-to-WzpAzn/preview" style="width:70%; height:470px;" allow="autoplay"></iframe>
+
+    <!-- Right Column -->
+    <div class="col-md-6">
+      <img src="AIpic.png"
+           alt="Artificial Intelligence Research"
+           class="img-responsive"
+           style="width:35%; margin-top:40px; margin-bottom:35px;">
+    </div>
+
   </div>
-          </div>
 </div>
-    -->
 
 </body>
 </html>
