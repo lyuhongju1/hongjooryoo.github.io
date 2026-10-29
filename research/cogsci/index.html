@@ -1,206 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <title>Hong Joo Ryoo</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <title>Philosophy of Mind and Cognition — Hong Joo Ryoo</title>
+  <meta name="description" content="Philosophy of mind and cognitive science: AI, epistemic regress, and machine creativity.">
+  <link rel="canonical" href="https://hongjooryoo.com/research/cogsci">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/site.css?v=33">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
-   <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
-<link rel="manifest" href="/site.webmanifest">
-
-  <style>
-    body {
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 16px; /* Adjust the font size as needed */
-    }
-    .navbar {
-      height: 120px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-    .navbar-brand {
-      padding-top: 40px;
-      padding-bottom: 20px;
-      font-size: 45px; /* Adjust the font size as needed */
-    }
-    .navbar-nav > li > a {
-      padding-top: 40px;
-      padding-bottom: 20px;
-      font-size: 35px;
-    }
-    .dropdown-menu > li > a {
-      padding: 10px 20px; /* Increase padding */
-      font-size: 18px; /* Increase font size */
-    }
-    
-      .responsive-iframe {
-        width: 80%;
-        height: 600px; /* Adjust the height as needed */
-      }
-
-    @media (max-width: 767px){
-  body {
-    font-size: 14px; /* Adjust the font size for mobile */
-  }
-
-      .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form { background-color: #222
-      }
-      .navbar-brand {
-        font-size: 30px; /* Adjust the font size for mobile */
-      }
-      
-      .navbar-nav > li > a {
-        padding-top: 40px;
-        font-size: 24px; /* Increase the font size for navigation items on mobile */
-      }
-      
-      .navbar-toggle {
-        margin-top: 33px; /* Adjust this value to move the button lower */
-      }
-      .dropdown-menu > li > a {
-        font-size: 16px; /* Increase font size for dropdown items on mobile */
-      }
-      .order-first {
-        order: -1; /* Make this element appear first */
-      }
-      .order-last {
-        order: 1; /* Make this element appear last */
-      }
-      .col-md-6 {
-        width: 100%;
-      }
-    }
-    .no-gap {
-      margin-top: 0;
-      margin-bottom: 0;
-      padding-top: 0;
-      padding-bottom: 0;
-    }
-    
-      .responsive-iframe {
-        width: 100%;
-        height: 300px; /* Adjust the height as needed */
-      }
-  </style>
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://hongjooryoo.com"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Research",
-      "item": "https://hongjooryoo.com/research"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Cognitive Science and Philosophy of Mind",
-      "item": "https://hongjooryoo.com/research/field5"
-    }
-  ]
-}
-</script>
-
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
 
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="https://hongjooryoo.com">Hong Joo Ryoo</a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="/research/mathphys">(Physics) Formal Theory</a></li>
-              <li><a href="/research/theory">(Physics) QCD Theory</a></li>
-              <li><a href="/research/experiment">(Physics) Dark Matter and Neutrino Experiment</a></li>
-              <li><a href="/research/philosophy">(Philosophy) of Explanation and Understanding</a></li>
-              <li><a href="/research/foundations">(Philosophy) of Quantum Mechanics</a></li>
-              <li><a href="/research/cogsci">(Cogsci) Philosophy of Mind and Cognition</a></li>
-              <li><a href="/research/ai">(Cogsci) Artificial Intelligence</a></li>
-            </ul>
-          </li>
-          <li><a href="/publications">Publications</a></li> 
-          <li><a href="/about-me">About</a></li> 
-        </ul>
-      </div>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/">Hong Joo Ryoo</a>
+      <nav aria-label="Main">
+        <a href="/research/" aria-current="page">Research</a>
+        <a href="/publications">Publications</a>
+        <a href="/teaching">Teaching</a>
+        <a href="/about-me">About</a>
+      </nav>
     </div>
-  </nav>
+  </header>
 
+  <main class="wrap narrow">
+    <p class="crumb"><a href="/research/">Research</a> / Mind &amp; Machines</p>
+    <h1>Philosophy of Mind and Cognitive Science</h1>
+    <figure class="page-figure small">
+      <img src="/assets/mind-800.jpg" width="800" height="800" alt="Philosophy of mind illustration">
+    </figure>
+    <p>I am generally interested in artificial intelligence as it connects to epistemic regress problems and applications for groundbreaking discoveries in science. With a collaborator, I critiqued a common conception of self-healing in agentic AI systems. Currently, I am examining machine creativity and the standards for establishing a result, particularly in experimental particle physics, where the deepest verifiable truths are to be discovered.</p>
+    <ul class="works">
+      <li><a href="https://philsci-archive.pitt.edu/30629/">AI-Regress</a> <span class="venue">— PhilSci-Archive</span></li>
+      <li><a href="https://doi.org/10.31234/osf.io/p7a4w">On Functionalism's Context-Dependent Explanations of Mental States</a> <span class="venue">— PsyArXiv, 2024</span></li>
+    </ul>
+  </main>
 
-
-
-
-
-<!-- Page Content -->
-<div class="container">
-  <div class="row">
-     <!-- Description on the Left -->
-     <div class="col-md-6">
-       
-     <h3>Philosophy of Mind and Cognitive Science Work</h3>
-       <p>I am generally interested in artificial intelligence as it connects to epistemic regress problems and applications for groundbreaking discoveries in science. With a collaborator, we critiqued a common conception of self-healing in agentic AI systems. Currently, I am working towards examining machine creativity and the standards for establishing a result (particularly in experimental particle physics, where the deepest verifiable truths are to be discovered).</p>
-      <a href="https://philsci-archive.pitt.edu/30629/">AI-Regress on PhilSci-Archive</a></li></p>
-</div>
-
-    <!-- Images on the Right -->
-    <div class="col-md-6">
-    <img src="Mindpic (1).png" alt="Neutrino Research" class="img-responsive"class="img-responsive" style="width: 35%;margin-top:40px; margin-bottom:35px;">
+  <footer class="site-footer">
+    <div class="wrap">
+      <a href="mailto:hryoo1@jhu.edu">hryoo1@jhu.edu</a>
+      <a href="https://scholar.google.com/citations?user=MaOhbfsAAAAJ&amp;hl=en">Google Scholar</a>
+      <a href="https://orcid.org/0000-0002-4032-0215">ORCID</a>
     </div>
-    <!--
-    
-      <div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <h3>Towards an Account of Complementarities and Context-Dependence</a></h3>
-       
-            <iframe src="https://drive.google.com/file/d/1APx2uqji0-2FozCY2i4b9Vl4IssYQW3X/preview" style="width:70%; height:470px;" allow="autoplay"></iframe>
-        </div>
-    </div>
-     <div class="row">
-        <div class="col-md-12">
-        <h3>Concerning Multiple Context-Dependence, Uncertainty, and Understanding</a></h3>
-       <iframe src="https://drive.google.com/file/d/1IjSFBhGmb-zF9t0QrPMDxFHk5i1BeDew/preview" style="width:70%; height:470px;" allow="autoplay"></iframe>
-</div>
- </div>
-          <div class="row">
-        <div class="col-md-12">
-        <h3>The Role of Idealizations in Context-Dependent Mapping</a></h3>
-          <iframe src="https://drive.google.com/file/d/1_K0-PbuMM53-QR5HSj8-aB-to-WzpAzn/preview" style="width:70%; height:470px;" allow="autoplay"></iframe>
-  </div>
-          </div>
-</div>
-    -->
+  </footer>
 
 </body>
 </html>
-

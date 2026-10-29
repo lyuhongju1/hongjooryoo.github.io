@@ -1,185 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <title>Hong Joo Ryoo</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <title>Explanation and Understanding — Hong Joo Ryoo</title>
+  <meta name="description" content="Philosophy of scientific explanation and understanding, and the context-dependent mapping framework.">
+  <link rel="canonical" href="https://hongjooryoo.com/research/philosophy">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/site.css?v=33">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
-   <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
-<link rel="manifest" href="/site.webmanifest">
-  <style>
-    body {
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 16px; /* Adjust the font size as needed */
-    }
-    .navbar {
-      height: 120px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-    .navbar-brand {
-      padding-top: 40px;
-      padding-bottom: 20px;
-      font-size: 45px; /* Adjust the font size as needed */
-    }
-    .navbar-nav > li > a {
-      padding-top: 40px;
-      padding-bottom: 20px;
-      font-size: 35px;
-    }
-    .dropdown-menu > li > a {
-      padding: 10px 20px; /* Increase padding */
-      font-size: 18px; /* Increase font size */
-    }
-    
-/* Desktop default */
-.responsive-iframe {
-  width: 100%;
-  height: 600px; /* or higher if needed */
-}
-
-
-    @media (max-width: 767px){
-  body {
-    font-size: 14px; /* Adjust the font size for mobile */
-  }
-
-      .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form { background-color: #222
-      }
-      .navbar-brand {
-        font-size: 30px; /* Adjust the font size for mobile */
-      }
-      
-      .navbar-nav > li > a {
-        padding-top: 40px;
-        font-size: 24px; /* Increase the font size for navigation items on mobile */
-      }
-      
-      .navbar-toggle {
-        margin-top: 33px; /* Adjust this value to move the button lower */
-      }
-      .dropdown-menu > li > a {
-        font-size: 16px; /* Increase font size for dropdown items on mobile */
-      }
-      .order-first {
-        order: -1; /* Make this element appear first */
-      }
-      .order-last {
-        order: 1; /* Make this element appear last */
-      }
-      .col-md-6 {
-        width: 100%;
-      }
-    }
-    .no-gap {
-      margin-top: 0;
-      margin-bottom: 0;
-      padding-top: 0;
-      padding-bottom: 0;
-    }
-    
-      
-  </style>
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://hongjooryoo.com"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Research",
-      "item": "https://hongjooryoo.com/research"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Philosophy of Explanation and Understanding",
-      "item": "https://hongjooryoo.com/research/field4"
-    }
-  ]
-}
-</script>
-
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="https://hongjooryoo.com">Hong Joo Ryoo</a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="/research/mathphys">(Physics) Formal Theory</a></li>
-              <li><a href="/research/theory">(Physics) QCD Theory</a></li>
-              <li><a href="/research/experiment">(Physics) Dark Matter and Neutrino Experiment</a></li>
-              <li><a href="/research/philosophy">(Philosophy) of Explanation and Understanding</a></li>
-              <li><a href="/research/foundations">(Philosophy) of Quantum Mechanics</a></li>
-              <li><a href="/research/cogsci">(Cogsci) Philosophy of Mind and Cognition</a></li>
-              <li><a href="/research/ai">(Cogsci) Artificial Intelligence</a></li>
-            </ul>
-          </li>
-          <li><a href="/publications">Publications</a></li> 
-          <li><a href="/about-me">About</a></li> 
-        </ul>
-      </div>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/">Hong Joo Ryoo</a>
+      <nav aria-label="Main">
+        <a href="/research/" aria-current="page">Research</a>
+        <a href="/publications">Publications</a>
+        <a href="/teaching">Teaching</a>
+        <a href="/about-me">About</a>
+      </nav>
     </div>
-  </nav>
+  </header>
 
+  <main class="wrap narrow">
+    <p class="crumb"><a href="/research/">Research</a> / Philosophy</p>
+    <h1>Philosophy of Explanation and Understanding</h1>
+    <figure class="page-figure small">
+      <img src="/assets/stance-700.jpg" width="700" height="699" alt="Stance journal">
+    </figure>
+    <p>I have proposed Foundational Explanationism (FE), forthcoming in <em>Ergo</em>. Explanationism holds that successful scientific explanations license ontological commitment to the entities and structures they invoke. FE restricts that inference: it is warranted only when it targets pre-emergent, metaphysically fundamental structures and entities. At emergent levels, explanatory success is better accounted for by structural fit, empirical adequacy, or integration with broader theory. I show how FE works in cases from quantum gravity, effective field theory, and gauge symmetry.</p>
+    <p>Earlier, I developed the context-dependent mapping (f<sub>c</sub> mapping) framework as an extension to Strevens' kairetic account of scientific explanation and Railton's DNP account for simple probabilities, in an attempt to elucidate how varying experimental or contextual conditions lead to distinct manifestations of phenomena, particularly in quantum mechanics and general relativity. This approach allows for a nuanced understanding and accommodation of complementarities in these fields, emphasizing the influence of specific contexts on observational outcomes. Currently, I am investigating the nature of incomplete laws in science and the notion of constraints within explanation.</p>
+    <ul class="works">
+      <li><a href="https://philarchive.org/rec/RYOFEW">Foundational Explanationism</a> <span class="venue">— Ergo, forthcoming</span></li>
+      <li><a href="https://doi.org/10.1515/krt-2025-0028">What are the Contexts of Complementarities?</a> <span class="venue">— Kriterion, forthcoming</span></li>
+      <li><a href="https://doi.org/10.33043/YMCGR3hB">Towards an Account of Complementarities and Context-Dependence</a> <span class="venue">— Stance, 2025</span></li>
+    </ul>
+    <ul class="link-list">
+      <li><a href="https://philpeople.org/profiles/hong-joo-ryoo/publications">All philosophy work on PhilPeople</a></li>
+    </ul>
+  </main>
 
-
-
-<!-- Page Content -->
-<div class="container">
-  <div class="row">
-     <!-- Description on the Left -->
-     <div class="col-md-6">
-       
-     <h3>Philosophy of Explanation and Understanding</h3>
-        <p> 
-In my philosophy work, I have developed the context-dependent mapping (f<sub>c</sub> mapping) framework as an extension to Strevens' Kairetic account of scientific explanation and Railton's DNP account for simple probabilities in an attempt to elucidate how varying experimental or contextual conditions lead to distinct manifestations of phenomena, particularly in quantum mechanics and general relativity. This approach allows for a nuanced understanding and accommodation of complementarities in these fields, emphasizing the influence of specific contexts on observational outcomes. Currently, I am working towards investgating the nature of incomplete laws in science and the notion of constraints within explanation.</p>
-    <a href="https://philpeople.org/profiles/hong-joo-ryoo/publications">List of Philosophy Works on PhilPeople</a></li></p>
-    
-       <a href="https://philarchive.org/rec/RYOFEW">(Forthcoming) Foundational Explanationism in Ergo</a></li></p>
-       <a href="https://doi.org/10.1515/krt-2025-0028">(Forthcoming) What are the Contexts of Complementarities? in Kriterion</a></li></p>
-       <a href="https://doi.org/10.33043/YMCGR3hB">(Published) Towards an Account of Complementarities in Stance Journal</a></li></p>
-
-</div>
-
-    <!-- Images on the Right -->
-    <div class="col-md-6">
-    <img src="Stancephoto.png" alt="Neutrino Research" class="img-responsive"class="img-responsive" style="width: 55%;margin-top:35px; margin-bottom:35px;">
+  <footer class="site-footer">
+    <div class="wrap">
+      <a href="mailto:hryoo1@jhu.edu">hryoo1@jhu.edu</a>
+      <a href="https://scholar.google.com/citations?user=MaOhbfsAAAAJ&amp;hl=en">Google Scholar</a>
+      <a href="https://orcid.org/0000-0002-4032-0215">ORCID</a>
     </div>
-    <!--Third Paper-->
-  
-
+  </footer>
 
 </body>
 </html>

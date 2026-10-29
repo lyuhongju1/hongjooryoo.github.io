@@ -1,125 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <title>Hong Joo Ryoo</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
-
-  <style>
-    body { font-family: 'Times New Roman', Times, serif; font-size: 16px; }
-    .navbar { height: 120px; padding-top: 10px; padding-bottom: 10px; }
-    .navbar-brand { padding-top: 40px; padding-bottom: 20px; font-size: 45px; }
-    .navbar-nav > li > a { padding-top: 40px; padding-bottom: 20px; font-size: 35px; }
-    .dropdown-menu > li > a { padding: 10px 20px; font-size: 18px; }
-
-    @media (max-width: 767px){
-      body { font-size: 14px; }
-      .navbar-brand { font-size: 30px; }
-      .navbar-nav > li > a { font-size: 24px; }
-      .navbar-toggle { margin-top: 33px; }
-      .col-md-6 { width: 100%; }
-    }
-  </style>
-
+  <title>Artificial Intelligence — Hong Joo Ryoo</title>
+  <meta name="description" content="Agentic AI for scientific reasoning: GRACE, an autonomous AI framework for particle physics experiment design and simulation.">
+  <link rel="canonical" href="https://hongjooryoo.com/research/ai">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/site.css?v=33">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
-
 <body>
 
-<!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="https://hongjooryoo.com">Hong Joo Ryoo</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/">Hong Joo Ryoo</a>
+      <nav aria-label="Main">
+        <a href="/research/" aria-current="page">Research</a>
+        <a href="/publications">Publications</a>
+        <a href="/teaching">Teaching</a>
+        <a href="/about-me">About</a>
+      </nav>
     </div>
+  </header>
 
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
-            Research <span class="caret"></span>
-          </a>
-          <ul class="dropdown-menu">
-            <li><a href="/research/mathphys">(Physics) Formal Theory</a></li>
-            <li><a href="/research/theory">(Physics) QCD Theory</a></li>
-            <li><a href="/research/experiment">(Physics) Dark Matter and Neutrino Experiment</a></li>
-            <li><a href="/research/philosophy">(Philosophy) of Explanation and Understanding</a></li>
-            <li><a href="/research/foundations">(Philosophy) of Quantum Mechanics</a></li>
-            <li><a href="/research/cogsci">(Cogsci) Philosophy of Mind and Cognition</a></li>
-            <li><a href="/research/ai">(Cogsci) Artificial Intelligence</a></li>
-          </ul>
-        </li>
-        <li><a href="/publications">Publications</a></li>
-        <li><a href="/about-me">About</a></li>
-      </ul>
+  <main class="wrap narrow">
+    <p class="crumb"><a href="/research/">Research</a> / Mind &amp; Machines</p>
+    <h1>Artificial Intelligence and Autonomous Scientific Reasoning</h1>
+    <figure class="page-figure">
+      <img src="/research/ai/AIPIC.png" width="597" height="408" alt="Artificial intelligence research">
+    </figure>
+    <p>My work in artificial intelligence focuses on the development of <em>agentic systems</em> for scientific reasoning, with particular emphasis on simulation-native autonomy in experimental physics. Rather than treating AI systems as tools for workflow automation or code execution, I investigate how large language models can participate directly in hypothesis formation, experimental design, simulation-driven evaluation, and explanatory synthesis under physical constraints.</p>
+    <p>This research program is instantiated in <strong>GRACE</strong> (Generative Reasoning Agentic Control Environment), an autonomous AI framework designed to operate at the upstream level of experimental design in high-energy and nuclear physics. GRACE treats detector design as a constrained search problem under physical law, using first-principles Monte Carlo simulation as an epistemic oracle rather than relying on predefined optimization heuristics.</p>
+    <p>The broader aim of this work is to understand how AI systems can construct, evaluate, and revise explanations in domains where correctness is determined not by benchmarks or labels, but by consistency with physical theory, statistical structure, and simulation-grounded evidence. I am also involved in some medical applications of machine learning models.</p>
+    <ul class="link-list">
+      <li><a href="https://doi.org/10.48550/arXiv.2602.15039">GRACE whitepaper (arXiv)</a></li>
+      <li><a href="https://www.xras.org/public/requests/265508-ACCESS-PHY260006">GRACE project compute grant</a></li>
+      <li><a href="https://www.xras.org/public/requests/265855-ACCESS-MED260007">Oncology ML project compute grant</a></li>
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <a href="mailto:hryoo1@jhu.edu">hryoo1@jhu.edu</a>
+      <a href="https://scholar.google.com/citations?user=MaOhbfsAAAAJ&amp;hl=en">Google Scholar</a>
+      <a href="https://orcid.org/0000-0002-4032-0215">ORCID</a>
     </div>
-  </div>
-</nav>
-
-<!-- Page Content -->
-<div class="container">
-  <div class="row">
-
-    <!-- Left Column -->
-    <div class="col-md-6">
-
-      <h3>Artificial Intelligence and Autonomous Scientific Reasoning</h3>
-
-      <p>
-        My work in artificial intelligence focuses on the development of
-        <em>agentic systems</em> for scientific reasoning, with particular emphasis
-        on simulation-native autonomy in experimental physics. Rather than
-        treating AI systems as tools for workflow automation or code execution,
-        I investigate how large language models can participate directly in
-        hypothesis formation, experimental design, simulation-driven evaluation,
-        and explanatory synthesis under physical constraints.
-      </p>
-
-      <p>
-        This research program is instantiated in <strong>GRACE</strong>
-        (Generative Reasoning Agentic Control Environment), an autonomous AI
-        framework designed to operate at the upstream level of experimental
-        design in high-energy and nuclear physics. GRACE treats detector design
-        as a constrained search problem under physical law, using first-principles
-        Monte Carlo simulation as an epistemic oracle rather than relying on
-        predefined optimization heuristics.
-      </p>
-
-      <p>
-        The broader aim of this work is to understand how AI systems can
-        construct, evaluate, and revise explanations in domains where correctness
-        is determined not by benchmarks or labels, but by consistency with
-        physical theory, statistical structure, and simulation-grounded evidence. I am also involved in some fronts in medical use of machine learning models.
-      </p>
-
-      <p style="margin-top: 10px;">
-        <a href="https://doi.org/10.48550/arXiv.2602.15039">GRACE Whitepaper (ArXiV)</a><br>
-        <a href="https://www.xras.org/public/requests/265508-ACCESS-PHY260006">GRACE Project Compute Grant</a><br>
-        <a href="https://www.xras.org/public/requests/265855-ACCESS-MED260007">Oncology ML Project Compute Grant</a>
-      </p>
-
-    </div>
-
-    <!-- Right Column -->
-    <div class="col-md-6">
-      <img src="AIPIC.png"
-           alt="Artificial Intelligence Research"
-           class="img-responsive"
-           style="width:90%; margin-top:40px; margin-bottom:35px;">
-    </div>
-
-  </div>
-</div>
+  </footer>
 
 </body>
 </html>

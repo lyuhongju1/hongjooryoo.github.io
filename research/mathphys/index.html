@@ -1,180 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <title>Hong Joo Ryoo</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+  <title>Formal Theory — Hong Joo Ryoo</title>
+  <meta name="description" content="Mathematical, theoretical, and philosophical physics: emergent spacetime, algebraic quantum theory, and quantum gravity.">
+  <link rel="canonical" href="https://hongjooryoo.com/research/mathphys">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/site.css?v=33">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
-   <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
-<link rel="manifest" href="/site.webmanifest">
-
-  <style>
-    body {
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 16px; /* Adjust the font size as needed */
-    }
-    .navbar {
-      height: 120px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-    .navbar-brand {
-      padding-top: 40px;
-      padding-bottom: 20px;
-      font-size: 45px; /* Adjust the font size as needed */
-    }
-    .navbar-nav > li > a {
-      padding-top: 40px;
-      padding-bottom: 20px;
-      font-size: 35px;
-    }
-    .dropdown-menu > li > a {
-      padding: 10px 20px; /* Increase padding */
-      font-size: 18px; /* Increase font size */
-    }
-
-    @media (max-width: 767px){
-      body {
-        font-size: 14px; /* Adjust the font size for mobile */
-      }
-      .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form { 
-        background-color: #222; /* Change the hex value as per your design */
-      }
-      .navbar-brand {
-        font-size: 30px; /* Adjust the font size for mobile */
-      }
-      .navbar-nav > li > a {
-        padding-top: 40px;
-        font-size: 24px; /* Increase the font size for navigation items on mobile */
-      }
-      .navbar-toggle {
-        margin-top: 33px; /* Adjust this value to move the button lower */
-      }
-      .dropdown-menu > li > a {
-        font-size: 16px; /* Increase font size for dropdown items on mobile */
-      }
-      .order-first {
-        order: -1; /* Make this element appear first */
-      }
-      .order-last {
-        order: 1; /* Make this element appear last */
-      }
-      .col-md-6 {
-        width: 100%;
-      }
-      .responsive-iframe {
-        width: 100%;
-        height: 300px; /* Adjust the height as needed */
-      }
-    }
-    .no-gap {
-      margin-top: 0;
-      margin-bottom: 0;
-      padding-top: 0;
-      padding-bottom: 0;
-    }
-    .responsive-iframe {
-      width: 100%;
-      height: 600px; /* Adjust the height as needed */
-    }
-  </style>
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://hongjooryoo.com"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "about",
-      "item": "https://hongjooryoo.com/about"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Theoretical High Energy Physics",
-      "item": "https://hongjooryoo.com/research/field3"
-    }
-  ]
-}
-</script>
-
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="https://hongjooryoo.com">Hong Joo Ryoo</a>
-      </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="/research/mathphys">(Physics) Formal Theory</a></li>
-              <li><a href="/research/theory">(Physics) QCD Theory</a></li>
-              <li><a href="/research/experiment">(Physics) Dark Matter and Neutrino Experiment</a></li>
-              <li><a href="/research/philosophy">(Philosophy) of Explanation and Understanding</a></li>
-              <li><a href="/research/foundations">(Philosophy) of Quantum Mechanics</a></li>
-              <li><a href="/research/cogsci">(Cogsci) Philosophy of Mind and Cognition</a></li>
-              <li><a href="/research/ai">(Cogsci) Artificial Intelligence</a></li>
-            </ul>
-          </li>
-          <li><a href="/publications">Publications</a></li> 
-          <li><a href="/about-me">About</a></li> 
-        </ul>
-      </div>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/">Hong Joo Ryoo</a>
+      <nav aria-label="Main">
+        <a href="/research/" aria-current="page">Research</a>
+        <a href="/publications">Publications</a>
+        <a href="/teaching">Teaching</a>
+        <a href="/about-me">About</a>
+      </nav>
     </div>
-  </nav>
+  </header>
 
+  <main class="wrap narrow">
+    <p class="crumb"><a href="/research/">Research</a> / Physics</p>
+    <h1>Mathematical, Theoretical, and Philosophical Physics</h1>
+    <figure class="page-figure">
+      <img src="/assets/mathphys-1200.jpg" width="1200" height="675" alt="Mathematical physics research">
+    </figure>
+    <p>At Johns Hopkins, I am working on the foundations of physics, contributing to the development of theories of emergent spacetime and connecting various formulations of Hilbert space factorizations and quantum information to algebraic structures. I am also thinking about the role of topological quantum field theory and the theory of generalized stochastic processes in the foundations of physics and quantum gravity. These have various implications for the interpretations of physics and the emergence of time, which I explore in <a href="/research/philosophy">Explanation</a> and <a href="/research/foundations">Philosophy of QM</a>.</p>
+    <p>I am advised by Sean Carroll, as part of a joint physics/philosophy doctoral program through the Interdisciplinary Humanistic Studies (IHS) department.</p>
+  </main>
 
-
-
-
-
-<!-- Page Content -->
-<div class="container">
-  <div class="row">
-     <!-- Description on the Left -->
-     <div class="col-md-6">
-       <h3>Mathematical, Theoretical, and Philosophical Physics</h3>
-       <p>At Johns Hopkins, I am working on the foundations of physics, contributing to the development of theories of emergent spacetime and connecting various formulations of Hilbert space factorizations and quantum information to algebraic structures. I am also thinking about the role of Topological Quantum Field Theory and the theory of Generalized Stochastic Processes in the foundations of physics and quantum gravity. These have various implications for the interpretations of physics and emergence of time, which I explore in <a href="/research/philosophy">Explanation</a> and <a href="/research/foundations">Philosophy of QM</a>. </p>
-       <p>I am advised by Sean Carroll. I am currently a part of a joint Physics/Philosophy doctoral program through the Interdisciplinary Humanistic Studies (IHS) Department.</p>
-     </div>
-
-    <!-- Images on the Right -->
-    <div class="col-md-6">
-      <img src="Still 2025-06-21 160804_1.17.1.jpg" alt="Math Physics Research" class="img-responsive" style="width: 55%; margin-top: 35px; margin-bottom: 35px;">
+  <footer class="site-footer">
+    <div class="wrap">
+      <a href="mailto:hryoo1@jhu.edu">hryoo1@jhu.edu</a>
+      <a href="https://scholar.google.com/citations?user=MaOhbfsAAAAJ&amp;hl=en">Google Scholar</a>
+      <a href="https://orcid.org/0000-0002-4032-0215">ORCID</a>
     </div>
-  </div>
-
-    
-
-
+  </footer>
 
 </body>
 </html>
