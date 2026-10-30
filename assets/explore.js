@@ -14,7 +14,7 @@ const WORKS = {
   uncertainty: { title: "Concerning Multiple Context-Dependence, Uncertainty, and Understanding", venue: "PhilSci-Archive, 2024", url: "https://philsci-archive.pitt.edu/id/eprint/23535" },
   idealizations: { title: "The Role of Idealizations in Context-Dependent Mapping", venue: "PhilSci-Archive, 2024", url: "https://philsci-archive.pitt.edu/23570/" },
   functionalism: { title: "On Functionalism's Context-Dependent Explanations of Mental States", venue: "PsyArXiv, 2024", url: "https://doi.org/10.31234/osf.io/p7a4w" },
-  regress: { title: "AI-Regress", venue: "PhilSci-Archive", url: "https://philsci-archive.pitt.edu/30629/" },
+  regress: { title: "A Regress Argument Concerning Autonomous Self-Correction in AI Agents", venue: "PhilSci-Archive, 2026 (with J. Lee-Sursin)", url: "https://philsci-archive.pitt.edu/id/eprint/30629/" },
   thesis: { title: "Quantum experimentation, field theory computation, and the hard and soft modes of the black hole final state", venue: "Physics honors thesis, 2023", url: "https://doi.org/10.13140/RG.2.2.28112.52483" },
 };
 
@@ -56,7 +56,7 @@ const ENTRIES = {
   "phil+phys": {
     title: "Foundations of Physics",
     body: [
-      "Foundational Explanationism carries over directly. If explanatory success licenses ontological commitment only at the fundamental level, then knowing what we are entitled to say exists means building models of that level: emergent spacetime, algebraic quantum theory, quantum gravity. The physics is motivated by the philosophical view.",
+      "Foundational Explanationism (FE) holds that explanatory success licenses ontological commitment only when the explanation targets pre-emergent, metaphysically fundamental structures and entities. FE carries over directly to physics. If commitment is warranted only at the fundamental level, then knowing what we are entitled to say exists means building models of that level: emergent spacetime, algebraic quantum theory, quantum gravity. The physics is motivated by the philosophical view.",
       "The philosophy is equally motivated by the physics. Quantum gravity, effective field theory, and gauge symmetry are the cases where the view is tested, and quantum theory's implications for time, emergence, and ontology raise the questions it has to answer.",
     ],
     areas: ["foundations", "mathphys", "philosophy"],
@@ -81,8 +81,8 @@ const ENTRIES = {
   "mind+phil+phys": {
     title: "Toward a Complete Understanding of Nature",
     body: [
-      "The most important problems for a complete understanding of nature come from harnessing three aspects at once: physics, philosophy, and AI. Experiment is a large part of it, and artificial intelligence, especially in experimental physics, is increasingly central to reaching these goals. Philosophy offers guiding principles for the issues this raises, such as epistemic regress and creativity.",
-      "The goal is the best scientific explanation at the foundational level, the level to which we can assign ontology. The responsibility falls on the philosopher to guide the process of inquiry and science, and to offer theories of ontology and the metaphysics thereof.",
+      "The most important problems for a complete understanding of nature come from harnessing three aspects at once: physics, philosophy, and AI. Experiment is a large part of it, and artificial intelligence—especially in experimental physics—is increasingly central to reaching these goals. Philosophy offers guiding principles for the issues this raises, such as epistemic regress and creativity.",
+      "The goal is the best scientific explanation at the foundational level, the level to which we can assign ontology. The responsibility falls on the scientist-philosopher to guide the process of inquiry and science, and to offer theories of ontology and the metaphysics thereof.",
     ],
     areas: ["ai", "philosophy", "mathphys"],
     works: ["explanationism", "grace", "regress", "temporal"],
