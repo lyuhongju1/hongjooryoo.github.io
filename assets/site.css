@@ -70,6 +70,8 @@ main.wrap { padding-top: 72px; padding-bottom: 72px; }
 .mark:hover { text-decoration-color: currentColor; }
 .mark-berkeley-phys { --c: #3a6ea5; }   /* Berkeley Blue, lightened */
 .mark-berkeley-ah { --c: #c0392b; }
+.mark-apa { --c: #70635a; }             /* Blog of the APA warm gray */
+.mark-apa .accent { color: #d8401f; }  /* its orange-red, deepened for contrast */
 .mark-scholar { --c: #3b78dc; }         /* Google Scholar blue */
 .mark-inspire { --c: #0a8fa3; }         /* INSPIRE cyan, deepened */
 .mark-philpeople { --c: #7a5c99; }
@@ -77,6 +79,8 @@ main.wrap { padding-top: 72px; padding-bottom: 72px; }
 .mark svg { width: 22px; height: 22px; fill: currentColor; flex: none; }
 .wm-main { font-weight: 600; letter-spacing: .01em; }
 .wm-sub { font-style: italic; }
+/* Featured-by wordmarks stack their two lines, like a logo */
+.mark-stack { flex-direction: column; align-items: flex-start; gap: 0; line-height: 1.15; }
 
 .explore { margin-top: 64px; padding-top: 36px; border-top: 1px solid var(--rule); display: grid; grid-template-columns: 430px 1fr; gap: 52px; align-items: start; }
 .venn { display: block; width: 100%; max-width: 430px; user-select: none; -webkit-user-select: none; }
